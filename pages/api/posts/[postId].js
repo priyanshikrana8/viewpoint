@@ -1,6 +1,4 @@
 import data from '../data'
-
-
 // api/posts/1
 export default function handler(req, res){
     const { postId } = req.query;

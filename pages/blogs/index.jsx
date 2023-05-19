@@ -42,7 +42,7 @@ export default function blogs() {
 function Post({ data }) {
     const { id, title, category, img, published, author, description } = data;
     return (
-        <div className="item ">
+        <div className="item">
             <div className="images">
                 <Link href={`/posts/${id}`}><a><Image src={img || "/"} className="" width={500} height={350} /></a></Link>
             </div>
